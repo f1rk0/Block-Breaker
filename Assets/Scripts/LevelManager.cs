@@ -4,6 +4,7 @@ using System.Collections;
 public class LevelManager : MonoBehaviour {
 
 	public void LoadLevel(string name){
+		Brick.brickCount = 0;
 		Debug.Log("Level going" + name);
 		Application.LoadLevel(name);
 	}
@@ -13,13 +14,14 @@ public class LevelManager : MonoBehaviour {
 		Application.Quit();
 	}
 	
-	public void LoadNextLevel(){
-		Application.LoadLevel(Application.loadedLevel + 1);
-	}
-	
 	public void BrickDestroyed(){
 		if (Brick.brickCount <= 0){
 			LoadNextLevel();
 		}
+	}
+	
+	public void LoadNextLevel(){
+		Brick.brickCount = 0;
+		Application.LoadLevel(Application.loadedLevel + 1);
 	}
 }

@@ -12,531 +12,160 @@ Platform assembly: C:\Best\Unity Games\Block Breaker\B.Breaker\game_Data\Managed
 Loading C:\Best\Unity Games\Block Breaker\B.Breaker\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Best\Unity Games\Block Breaker\B.Breaker\game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Best\Unity Games\Block Breaker\B.Breaker\game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.054 seconds
+- Completed reload, in  0.144 seconds
 desktop: 1600x900 40Hz; virtual: 1600x900 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Platform assembly: C:\Best\Unity Games\Block Breaker\B.Breaker\game_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Best\Unity Games\Block Breaker\B.Breaker\game_Data\Managed\System.dll (this message is harmless)
 Level goingLevel_01
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+LevelManager:LoadLevel(String) (at C:\Best\Unity Games\Block Breaker\Assets\Scripts\LevelManager.cs:7)
+UnityEngine.Events.InvokableCall`1:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:141)
+UnityEngine.Events.CachedInvokableCall`1:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:259)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:576)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:718)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:361)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:252)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:233)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:158)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:271)
  
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+(Filename: C:/Best/Unity Games/Block Breaker/Assets/Scripts/LevelManager.cs Line: 7)
 
-UnloadTime: 12.461123 ms
+UnloadTime: 6.476876 ms
+System memory in use before: 12.1 MB.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 12.0 MB.
 
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 532.
-Total: 1.843826 ms (FindLiveObjects: 0.064737 ms CreateObjectMapping: 0.018947 ms MarkObjects: 0.306712 ms  DeleteObjects: 0.009473 ms)
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 536.
+Total: 1.291191 ms (FindLiveObjects: 0.023289 ms CreateObjectMapping: 0.013815 ms MarkObjects: 0.159079 ms  DeleteObjects: 0.006710 ms)
 
 Mouse Clicked
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:Update() (at C:\Best\Unity Games\Block Breaker\Assets\Scripts\Ball.cs:23)
  
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
 
 Trigger
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+LoseCollider:OnTriggerEnter2D(Collider2D) (at C:\Best\Unity Games\Block Breaker\Assets\Scripts\LoseCollider.cs:9)
  
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
 
 Level goingLose
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+LevelManager:LoadLevel(String) (at C:\Best\Unity Games\Block Breaker\Assets\Scripts\LevelManager.cs:7)
+LoseCollider:OnTriggerEnter2D(Collider2D) (at C:\Best\Unity Games\Block Breaker\Assets\Scripts\LoseCollider.cs:11)
  
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+(Filename: C:/Best/Unity Games/Block Breaker/Assets/Scripts/LevelManager.cs Line: 7)
 
-UnloadTime: 1.124216 ms
+UnloadTime: 1.793693 ms
+System memory in use before: 12.2 MB.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 11.5 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 146.
-Total: 1.628298 ms (FindLiveObjects: 0.015789 ms CreateObjectMapping: 0.017763 ms MarkObjects: 0.270001 ms  DeleteObjects: 0.043421 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 147.
+Total: 10.109658 ms (FindLiveObjects: 0.021315 ms CreateObjectMapping: 0.022894 ms MarkObjects: 0.313027 ms  DeleteObjects: 7.587671 ms)
 
 Level goingStart
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+LevelManager:LoadLevel(String) (at C:\Best\Unity Games\Block Breaker\Assets\Scripts\LevelManager.cs:7)
+UnityEngine.Events.InvokableCall`1:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:141)
+UnityEngine.Events.CachedInvokableCall`1:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:259)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:576)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:718)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:361)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:252)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:233)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:158)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:271)
  
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+(Filename: C:/Best/Unity Games/Block Breaker/Assets/Scripts/LevelManager.cs Line: 7)
 
-UnloadTime: 0.683293 ms
+UnloadTime: 0.424344 ms
+System memory in use before: 11.7 MB.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 11.7 MB.
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 154.
-Total: 1.664614 ms (FindLiveObjects: 0.018947 ms CreateObjectMapping: 0.016973 ms MarkObjects: 0.307501 ms  DeleteObjects: 0.007500 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 155.
+Total: 1.177900 ms (FindLiveObjects: 0.009473 ms CreateObjectMapping: 0.008289 ms MarkObjects: 0.155921 ms  DeleteObjects: 0.006710 ms)
 
 Level goingLevel_01
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+LevelManager:LoadLevel(String) (at C:\Best\Unity Games\Block Breaker\Assets\Scripts\LevelManager.cs:7)
+UnityEngine.Events.InvokableCall`1:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:141)
+UnityEngine.Events.CachedInvokableCall`1:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:259)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:576)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:718)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:361)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:252)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:233)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:158)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:271)
  
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+(Filename: C:/Best/Unity Games/Block Breaker/Assets/Scripts/LevelManager.cs Line: 7)
 
-UnloadTime: 0.379738 ms
+UnloadTime: 0.833293 ms
+System memory in use before: 12.3 MB.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 12.3 MB.
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 532.
-Total: 0.789083 ms (FindLiveObjects: 0.022105 ms CreateObjectMapping: 0.009868 ms MarkObjects: 0.160264 ms  DeleteObjects: 0.004342 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 536.
+Total: 2.621855 ms (FindLiveObjects: 0.050131 ms CreateObjectMapping: 0.020526 ms MarkObjects: 0.312633 ms  DeleteObjects: 0.015000 ms)
 
 Mouse Clicked
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+Ball:Update() (at C:\Best\Unity Games\Block Breaker\Assets\Scripts\Ball.cs:23)
  
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
 
 Trigger
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:108)
+LoseCollider:OnTriggerEnter2D(Collider2D) (at C:\Best\Unity Games\Block Breaker\Assets\Scripts\LoseCollider.cs:9)
  
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineMonoBehaviour.cs Line: 108)
 
 Level goingLose
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+LevelManager:LoadLevel(String) (at C:\Best\Unity Games\Block Breaker\Assets\Scripts\LevelManager.cs:7)
+LoseCollider:OnTriggerEnter2D(Collider2D) (at C:\Best\Unity Games\Block Breaker\Assets\Scripts\LoseCollider.cs:11)
  
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+(Filename: C:/Best/Unity Games/Block Breaker/Assets/Scripts/LevelManager.cs Line: 7)
 
-UnloadTime: 1.205533 ms
+UnloadTime: 1.663429 ms
+System memory in use before: 12.4 MB.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+System memory in use after: 11.7 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 146.
-Total: 1.811062 ms (FindLiveObjects: 0.014605 ms CreateObjectMapping: 0.017763 ms MarkObjects: 0.283027 ms  DeleteObjects: 0.030000 ms)
-
-Level goingStart
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.666319 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 154.
-Total: 1.805141 ms (FindLiveObjects: 0.023289 ms CreateObjectMapping: 0.026052 ms MarkObjects: 0.390791 ms  DeleteObjects: 0.009473 ms)
-
-Level goingLevel_01
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.508818 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 532.
-Total: 0.799346 ms (FindLiveObjects: 0.022894 ms CreateObjectMapping: 0.009868 ms MarkObjects: 0.169737 ms  DeleteObjects: 0.004342 ms)
-
-Mouse Clicked
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Trigger
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Level goingLose
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 1.143559 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 146.
-Total: 1.605798 ms (FindLiveObjects: 0.014605 ms CreateObjectMapping: 0.018157 ms MarkObjects: 0.285791 ms  DeleteObjects: 0.028026 ms)
-
-Level goingStart
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.466976 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 154.
-Total: 0.824215 ms (FindLiveObjects: 0.009078 ms CreateObjectMapping: 0.009078 ms MarkObjects: 0.162632 ms  DeleteObjects: 0.003552 ms)
-
-Level goingLevel_01
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.890136 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 532.
-Total: 1.680798 ms (FindLiveObjects: 0.047368 ms CreateObjectMapping: 0.021315 ms MarkObjects: 0.318554 ms  DeleteObjects: 0.008289 ms)
-
-Mouse Clicked
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Trigger
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Level goingLose
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 1.136453 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 146.
-Total: 1.621982 ms (FindLiveObjects: 0.015394 ms CreateObjectMapping: 0.018947 ms MarkObjects: 0.294475 ms  DeleteObjects: 0.029605 ms)
-
-Level goingStart
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.955663 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 154.
-Total: 1.776325 ms (FindLiveObjects: 0.018947 ms CreateObjectMapping: 0.020131 ms MarkObjects: 0.336712 ms  DeleteObjects: 0.007500 ms)
-
-Level goingLevel_01
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.578687 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 532.
-Total: 1.990669 ms (FindLiveObjects: 0.045000 ms CreateObjectMapping: 0.022894 ms MarkObjects: 0.381712 ms  DeleteObjects: 0.008684 ms)
-
-Mouse Clicked
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Trigger
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Level goingLose
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 1.124611 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 146.
-Total: 1.733299 ms (FindLiveObjects: 0.014210 ms CreateObjectMapping: 0.071447 ms MarkObjects: 0.295264 ms  DeleteObjects: 0.028815 ms)
-
-Level goingStart
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.692372 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 154.
-Total: 1.677246 ms (FindLiveObjects: 0.018947 ms CreateObjectMapping: 0.020921 ms MarkObjects: 0.324475 ms  DeleteObjects: 0.007894 ms)
-
-Level goingLevel_01
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.710925 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 532.
-Total: 1.775536 ms (FindLiveObjects: 0.059605 ms CreateObjectMapping: 0.031973 ms MarkObjects: 0.382107 ms  DeleteObjects: 0.009078 ms)
-
-Mouse Clicked
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Trigger
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Level goingLose
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.981716 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 146.
-Total: 1.770404 ms (FindLiveObjects: 0.015000 ms CreateObjectMapping: 0.020921 ms MarkObjects: 0.309475 ms  DeleteObjects: 0.029605 ms)
-
-Level goingStart
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.686451 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 154.
-Total: 1.664219 ms (FindLiveObjects: 0.018947 ms CreateObjectMapping: 0.022105 ms MarkObjects: 0.319343 ms  DeleteObjects: 0.007500 ms)
-
-Level goingLevel_01
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.410528 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 532.
-Total: 0.813951 ms (FindLiveObjects: 0.022500 ms CreateObjectMapping: 0.011842 ms MarkObjects: 0.181974 ms  DeleteObjects: 0.004342 ms)
-
-Mouse Clicked
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Trigger
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Level goingLose
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.845531 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 146.
-Total: 2.020274 ms (FindLiveObjects: 0.015000 ms CreateObjectMapping: 0.022500 ms MarkObjects: 0.308685 ms  DeleteObjects: 0.044210 ms)
-
-Level goingStart
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.464213 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 154.
-Total: 1.701720 ms (FindLiveObjects: 0.018157 ms CreateObjectMapping: 0.022500 ms MarkObjects: 0.308685 ms  DeleteObjects: 0.007500 ms)
-
-Level goingLevel_01
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.710135 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 532.
-Total: 1.781062 ms (FindLiveObjects: 0.046579 ms CreateObjectMapping: 0.076974 ms MarkObjects: 0.341449 ms  DeleteObjects: 0.009078 ms)
-
-Mouse Clicked
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Trigger
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Level goingLose
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 1.153427 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 146.
-Total: 1.703299 ms (FindLiveObjects: 0.016184 ms CreateObjectMapping: 0.023684 ms MarkObjects: 0.326843 ms  DeleteObjects: 0.030394 ms)
-
-Level goingStart
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.863689 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 154.
-Total: 1.656325 ms (FindLiveObjects: 0.017763 ms CreateObjectMapping: 0.023684 ms MarkObjects: 0.326449 ms  DeleteObjects: 0.007105 ms)
-
-Level goingLevel_01
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.704609 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 532.
-Total: 1.838299 ms (FindLiveObjects: 0.045394 ms CreateObjectMapping: 0.027631 ms MarkObjects: 0.322501 ms  DeleteObjects: 0.008289 ms)
-
-Mouse Clicked
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Trigger
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Level goingLose
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.770530 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 146.
-Total: 1.655535 ms (FindLiveObjects: 0.015789 ms CreateObjectMapping: 0.025263 ms MarkObjects: 0.326843 ms  DeleteObjects: 0.028815 ms)
-
-Level goingStart
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.851057 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 154.
-Total: 1.710009 ms (FindLiveObjects: 0.018552 ms CreateObjectMapping: 0.024868 ms MarkObjects: 0.337896 ms  DeleteObjects: 0.007105 ms)
-
-Level goingLevel_01
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.712109 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 532.
-Total: 2.474224 ms (FindLiveObjects: 0.046973 ms CreateObjectMapping: 0.027631 ms MarkObjects: 0.455923 ms  DeleteObjects: 0.011842 ms)
-
-Mouse Clicked
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Trigger
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Level goingLose
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 1.198427 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 146.
-Total: 1.779483 ms (FindLiveObjects: 0.015394 ms CreateObjectMapping: 0.026447 ms MarkObjects: 0.335528 ms  DeleteObjects: 0.029210 ms)
-
-Level goingStart
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 1.043295 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 154.
-Total: 1.713957 ms (FindLiveObjects: 0.019342 ms CreateObjectMapping: 0.026052 ms MarkObjects: 0.344607 ms  DeleteObjects: 0.007105 ms)
-
-Level goingLevel_01
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.705793 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 532.
-Total: 1.836326 ms (FindLiveObjects: 0.046973 ms CreateObjectMapping: 0.028421 ms MarkObjects: 0.394739 ms  DeleteObjects: 0.009078 ms)
-
-Mouse Clicked
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Trigger
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Level goingLose
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 1.241849 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 146.
-Total: 1.702114 ms (FindLiveObjects: 0.015789 ms CreateObjectMapping: 0.027236 ms MarkObjects: 0.346975 ms  DeleteObjects: 0.030000 ms)
-
-Level goingStart
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.656845 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 154.
-Total: 1.751457 ms (FindLiveObjects: 0.018947 ms CreateObjectMapping: 0.027236 ms MarkObjects: 0.338686 ms  DeleteObjects: 0.007500 ms)
-
-Level goingLevel_01
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.894478 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 532.
-Total: 1.783431 ms (FindLiveObjects: 0.047763 ms CreateObjectMapping: 0.030000 ms MarkObjects: 0.347370 ms  DeleteObjects: 0.008684 ms)
-
-Mouse Clicked
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Trigger
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Level goingLose
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 1.091848 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 146.
-Total: 1.809089 ms (FindLiveObjects: 0.015000 ms CreateObjectMapping: 0.027631 ms MarkObjects: 0.339475 ms  DeleteObjects: 0.030000 ms)
-
-Level goingStart
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.843162 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 154.
-Total: 1.720667 ms (FindLiveObjects: 0.018947 ms CreateObjectMapping: 0.028421 ms MarkObjects: 0.360396 ms  DeleteObjects: 0.007500 ms)
-
-Level goingLevel_01
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.375791 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 532.
-Total: 0.789478 ms (FindLiveObjects: 0.019736 ms CreateObjectMapping: 0.017368 ms MarkObjects: 0.176448 ms  DeleteObjects: 0.003552 ms)
-
-Mouse Clicked
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Trigger
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Level goingLose
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 1.153427 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 146.
-Total: 1.671325 ms (FindLiveObjects: 0.015394 ms CreateObjectMapping: 0.028026 ms MarkObjects: 0.333159 ms  DeleteObjects: 0.029210 ms)
-
-Level goingStart
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.842373 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 154.
-Total: 1.710404 ms (FindLiveObjects: 0.018552 ms CreateObjectMapping: 0.028815 ms MarkObjects: 0.360002 ms  DeleteObjects: 0.007500 ms)
-
-Level goingLevel_01
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 0.863294 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 532.
-Total: 1.777904 ms (FindLiveObjects: 0.046973 ms CreateObjectMapping: 0.031579 ms MarkObjects: 0.365133 ms  DeleteObjects: 0.007894 ms)
-
-Mouse Clicked
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Trigger
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-Level goingLose
- 
-(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
-
-UnloadTime: 1.103690 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 146.
-Total: 1.694614 ms (FindLiveObjects: 0.015394 ms CreateObjectMapping: 0.030000 ms MarkObjects: 0.346580 ms  DeleteObjects: 0.028421 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 147.
+Total: 3.218701 ms (FindLiveObjects: 0.016579 ms CreateObjectMapping: 0.017368 ms MarkObjects: 0.321317 ms  DeleteObjects: 0.881452 ms)
 

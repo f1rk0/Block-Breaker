@@ -22,7 +22,7 @@ public class Brick : MonoBehaviour {
 		levelManager = GameObject.FindObjectOfType<LevelManager>();	
 	}
 	public void OnCollisionEnter2D (Collision2D collision){
-		AudioSource.PlayClipAtPoint (crack, transform.position);					
+		AudioSource.PlayClipAtPoint (crack, transform.position, 0.5f);					
 		if (isBreakable) {
 			HandleHits();
 		}
