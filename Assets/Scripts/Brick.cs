@@ -3,6 +3,8 @@ using System.Collections;
 
 public class Brick : MonoBehaviour {
 
+	
+	public AudioClip crack;
 	public int maxHits;
 	public static int brickCount = 0;
 	public int hitBrick;
@@ -19,7 +21,8 @@ public class Brick : MonoBehaviour {
 		}
 		levelManager = GameObject.FindObjectOfType<LevelManager>();	
 	}
-	void OnCollisionEnter2D (Collision2D collision){					
+	public void OnCollisionEnter2D (Collision2D collision){
+		AudioSource.PlayClipAtPoint (crack, transform.position);					
 		if (isBreakable) {
 			HandleHits();
 		}
@@ -39,12 +42,8 @@ public class Brick : MonoBehaviour {
 		this.GetComponent<SpriteRenderer>().sprite = hitSprites[spriteIndex];
 	}
 	
-	// TODO Remove method once bricks will be destructable
-	void SimulateWin(){
-		levelManager.LoadNextLevel();
-	}
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 }
