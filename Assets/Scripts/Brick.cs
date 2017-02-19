@@ -9,6 +9,7 @@ public class Brick : MonoBehaviour {
 	public static int brickCount = 0;
 	public int hitBrick;
 	public Sprite[] hitSprites;
+	public GameObject smoke;
 	private bool isBreakable;
 	
 	private LevelManager levelManager;
@@ -32,9 +33,15 @@ public class Brick : MonoBehaviour {
 		if (--maxHits <= 0 ) {
 			brickCount--; 
 			levelManager.BrickDestroyed();
+			PuffSmoke();
 			Destroy(gameObject);
 		}
 		else {LoadSprites ();}
+	}
+	
+	void PuffSmoke(){
+		GameObject smokePuff = Instantiate (smoke, transform.position, Quaternion.identity) as GameObject;
+		smokePuff.particleSystem.startColor = gameObject.GetComponent<SpriteRenderer>().color;
 	}
 	
 	void LoadSprites (){
